@@ -79,9 +79,11 @@ func (s Spinnaker) Execute(trm chaosmonkey.Termination) (err error) {
 	}
 
 	payload := killJSONPayload(ins, otherID, s.user)
+	// Remove any embedded quotes in the payload string
+	payload = strings.ReplaceAll(payload, "\"", "\\\"")
 	resp, err := s.client.Post(url, "application/json", bytes.NewReader(payload))
 	if err != nil {
-		return errors.Wrap(err, fmt.Sprintf("POST to %s failed, (body '%s')", url, string(payload)))
+	    return errors.Wrap(err, fmt.Sprintf("POST to %s failed, (body '%s')", url, string(payload)))
 	}
 
 	defer func() {
