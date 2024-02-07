@@ -1,8 +1,9 @@
 module github.com/Quartinal/chaosmonkey
 
-go 1.21.6
+go 1.22.0
 
 require (
+	github.com/Netflix/chaosmonkey/v2 v2.1.1
 	github.com/SmartThingsOSS/frigga-go v0.0.0-20230628193038-e5f9f08e7c4f
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc
 	github.com/go-sql-driver/mysql v1.7.1
