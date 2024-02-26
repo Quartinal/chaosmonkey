@@ -5,14 +5,14 @@ go 1.22.0
 require (
 	github.com/Netflix/chaosmonkey/v2 v2.1.1
 	github.com/SmartThingsOSS/frigga-go v0.0.0-20230628193038-e5f9f08e7c4f
-	github.com/davecgh/go-spew 8991bc29aa16
+	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc
 	github.com/go-sql-driver/mysql v1.7.1
 	github.com/kardianos/osext v0.0.0-20190222173326-2bc1f35cddc0
 	github.com/pkg/errors v0.9.1
 	github.com/rubenv/sql-migrate v1.6.1
 	github.com/spf13/pflag v1.0.5
 	github.com/spf13/viper v1.18.2
-	golang.org/x/crypto v0.19.0
+	golang.org/x/crypto v0.20.0
 )
 
 require (
