@@ -6,7 +6,7 @@ require (
 	github.com/Netflix/chaosmonkey/v2 v2.1.1
 	github.com/SmartThingsOSS/frigga-go v0.0.0-20230628193038-e5f9f08e7c4f
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc
-	github.com/go-sql-driver/mysql v1.7.1
+	github.com/go-sql-driver/mysql v1.8.0
 	github.com/kardianos/osext v0.0.0-20190222173326-2bc1f35cddc0
 	github.com/pkg/errors v0.9.1
 	github.com/rubenv/sql-migrate v1.6.1
@@ -16,6 +16,7 @@ require (
 )
 
 require (
+	filippo.io/edwards25519 v1.1.0 // indirect
 	github.com/fsnotify/fsnotify v1.7.0 // indirect
 	github.com/go-gorp/gorp/v3 v3.1.0 // indirect
 	github.com/hashicorp/hcl v1.0.0 // indirect
