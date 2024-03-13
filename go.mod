@@ -1,6 +1,6 @@
 module github.com/Quartinal/chaosmonkey
 
-go 1.22.0
+go 1.22.1
 
 require (
 	github.com/Netflix/chaosmonkey/v2 v2.1.1
